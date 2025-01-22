@@ -25,6 +25,16 @@ return function (App $app) {
 
   $app->get('/testplans/{tplanApiKey}/builds', 
             array($app->restApi,'getPlanBuilds'));
+  
+
+  $app->get('/testcases/sorted', function (Request $request, Response $response, $args) {
+    $response->getBody()->write(json_encode(['message' => 'test api']));
+    return $response->withHeader('Content-Type', 'application/json');
+  });
+          
+                    
+
+
 
   /*
   $app->get('/builds/{id}', 

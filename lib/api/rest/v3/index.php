@@ -32,6 +32,8 @@ $app = AppFactory::create();
 //   BUT this is a good example to understand how to configure 
 //
 $basePath = config_get('restAPI')->basePath;
+$basePath = str_replace('/' . basename(__FILE__), '', $_SERVER['SCRIPT_NAME']);
+
 $app->setBasePath($basePath);
 
 $app->restApi = new RestApi();

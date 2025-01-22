@@ -1,0 +1,10 @@
+	[25/Jan/22 20:12:36][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI]
+		Login for 'admin' from '::1' succeeded
+	[25/Jan/22 20:13:23][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Project 'Test Project' was created
+	[25/Jan/22 20:58:16][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Logout of 'admin'
+	[25/Jan/22 20:58:21][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[25/Jan/22 21:00:23][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
