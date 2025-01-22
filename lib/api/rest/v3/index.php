@@ -1,8 +1,11 @@
 <?php
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
-
 use Slim\Factory\AppFactory;
+
+
+
+
 
 require_once('../../../../config.inc.php');
 require 'autoload.php';
@@ -37,7 +40,6 @@ $basePath = str_replace('/' . basename(__FILE__), '', $_SERVER['SCRIPT_NAME']);
 $app->setBasePath($basePath);
 
 $app->restApi = new RestApi();
-
 
 /**
  * Load Custom API  - Begin

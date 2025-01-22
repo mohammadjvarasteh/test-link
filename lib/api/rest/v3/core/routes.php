@@ -1,4 +1,6 @@
 <?php
+
+use lib\Controller\TestCaseSortedController;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\App;
@@ -27,10 +29,9 @@ return function (App $app) {
             array($app->restApi,'getPlanBuilds'));
   
 
-  $app->get('/testcases/sorted', function (Request $request, Response $response, $args) {
-    $response->getBody()->write(json_encode(['message' => 'test api']));
-    return $response->withHeader('Content-Type', 'application/json');
-  });
+            
+  ///custom api route for testCase Sort!
+  $app->get('/testcase/sorted', [TestCaseSortedController::getInstance(),'sort']);
           
                     
 

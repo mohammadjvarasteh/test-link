@@ -22,5 +22,10 @@
         "omines/oauth2-gitlab": "^3.2",
         "league/oauth2-github": "^2.0",
         "league/oauth2-google": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lib\\": "lib/"
+        }
     }
 }

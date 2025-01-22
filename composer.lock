@@ -95,7 +95,9 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Fig\\Http\\Message\\": "src/"
+                    "Fig\\Http\\Message\\": "src/",
+                    "lib\\Controller\\": "lib/Controller/"
+
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
