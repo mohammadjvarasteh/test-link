@@ -4,13 +4,15 @@ namespace lib\Controller;
 
 use Slim\Psr7\Request;
 use Slim\Psr7\Response;
+use lib\Controller\BaseController;
 
 
 
- class TestCaseSortedController
+
+ class TestCaseSortedController extends BaseController
  {
-    private $db;
-    private static $instance = null;
+    protected $db;
+    protected static $instance = null;
 
     public static function getInstance()
     {
@@ -22,10 +24,6 @@ use Slim\Psr7\Response;
         return self::$instance;
     }
 
-    public function __construct()
-    {
-
-    }
 
     public function sort(Request $request, Response $response, $args)
     {
