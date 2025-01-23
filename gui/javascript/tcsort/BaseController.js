@@ -126,7 +126,7 @@ class BaceController
                 headers: {  
                     
                     'Apikey': 'c8a540fce43725f6ce34f6cc8f991f67', 
-                    'Content-Type': 'application/json'  // نوع محتوا را JSON مشخص می‌کنیم
+                    'Content-Type': 'application/json'  
 
                 },  
                 body: JSON.stringify({  

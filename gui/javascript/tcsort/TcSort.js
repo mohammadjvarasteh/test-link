@@ -59,9 +59,7 @@ class TcSort extends BaceController
         let testCasesBody = document.getElementById('item_view');
         testCasesBody = testCasesBody.querySelector("tbody");
         if (testCasesBody instanceof Element) 
-        {
-            console.log(testCasesBody);
-        
+        {        
             const sortedTestCases = document.createDocumentFragment();
         
             this.response.data.forEach(sortedTestCase => 

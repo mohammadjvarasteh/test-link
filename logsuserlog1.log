@@ -9148,3 +9148,37 @@ include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such 
 		E_WARNING
 include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
 [<<][6792758fb2295048710970][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 16:59:59][25/Jan/23 16:59:59][took 0.024807 secs]
+	[25/Jan/23 17:30:31][WARNING][<nosession>][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 17:30:31][WARNING][<nosession>][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67927cb702c7d073889355][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:31][25/Jan/23 17:30:31][took 0.076637 secs]
+[>>][67927cb715cc3813617966][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:31]
+[<<][67927cb715cc3813617966][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:31][25/Jan/23 17:30:31][took 0.088684 secs]
+[>>][67927cb72be96388871344][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:31]
+	[25/Jan/23 17:30:31][WARNING][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 17:30:31][WARNING][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67927cb72be96388871344][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:31][25/Jan/23 17:30:31][took 0.030163 secs]
+	[25/Jan/23 17:30:40][WARNING][<nosession>][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 17:30:40][WARNING][<nosession>][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67927cc09dbce196202475][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:40][25/Jan/23 17:30:40][took 0.060723 secs]
+[>>][67927cc0ace28185572937][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:40]
+[<<][67927cc0ace28185572937][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:40][25/Jan/23 17:30:40][took 0.076595 secs]
+[>>][67927cc0c0001598493763][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:40]
+	[25/Jan/23 17:30:40][WARNING][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 17:30:40][WARNING][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67927cc0c0001598493763][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 17:30:40][25/Jan/23 17:30:40][took 0.029742 secs]
