@@ -187,38 +187,6 @@ class database {
     }
     $message .= $p_query;
 
-    if (!$t_result)
-    {
-      $ec       = $this->error_num();
-      $emsg     = $this->error_msg();
-      $message .= "\nQuery failed: errorcode[" . $ec . "]". "\n\terrormsg:".$emsg;
-      $logLevel = 'ERROR';
-
-
-      tLog("ERROR ON exec_query() - database.class.php <br />" . $this->error(htmlspecialchars($p_query)) . 
-           "<br />THE MESSAGE : $message ", 'ERROR', "DATABASE");     
-      echo "<pre> ============================================================================== </pre>";
-      echo "<pre> DB Access Error - debug_print_backtrace() OUTPUT START </pre>";
-      echo "<pre> ATTENTION: Enabling more debug info will produce path disclosure weakness (CWE-200) </pre>";
-      echo "<pre>            Having this additional Information could be useful for reporting </pre>";
-      echo "<pre>            issue to development TEAM. </pre>";
-      echo "<pre> ============================================================================== </pre>";
-      
-      if(defined('DBUG_ON') && DBUG_ON == 1)
-      { 
-        echo "<pre>"; debug_print_backtrace(); echo "</pre>";
-        die();
-      }   
-      echo "<pre>"; debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS); echo "</pre>";
-        die();
-      
-      //else
-      //{
-      //  echo "<pre>"; debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS); echo "</pre>";
-      //}  
-      echo "<pre> ============================================================================== </pre>";
-      $t_result = false;
-    }
     
     if($this->logEnabled)
     {
@@ -238,7 +206,7 @@ class database {
   // TICKET 4898: MSSQL - Add support for SQLSRV drivers needed for PHP on WINDOWS version 5.3 and higher
   function fetch_array( &$p_result ) 
   {
-    if ( $p_result->EOF ) {
+    if ( $p_result->EOF || !$p_result ) {
       return false;
     }   
     
@@ -260,6 +228,31 @@ class database {
     $p_result->MoveNext();
     return $t_array;
   }
+
+  function fetch_all($p_result) 
+	{
+		$rows = array();
+		while (!$p_result->EOF) {
+
+			switch ($this->db->databaseType) 
+			{
+				case "mysql":
+				case "oci8po":
+				case "mssql":
+				case "mssqlnative":
+					$rows[] = $p_result->fields; 
+					break;
+
+				default:
+					$rows[] = $p_result->GetRowAssoc(false); 
+					break;
+			}
+
+			$p_result->MoveNext(); // رفتن به رکورد بعدی
+		}
+
+		return $rows; // بازگشت به آرایه رکوردها
+	}
 
 
     // 20080315 - franciscom - Got new code from Mantis, that manages FETCH_MODE_ASSOC

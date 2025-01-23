@@ -2,10 +2,13 @@
 
 namespace lib\Controller;
 
+use lib\Helper\QueryBuilder;
+
 
 
  class BaseController
  {
+    use QueryBuilder;
     protected $db;
 
     protected static $instance = null;
