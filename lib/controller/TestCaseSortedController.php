@@ -36,8 +36,8 @@ use lib\Helper\QueryBuilder;
     {
         $data = json_decode(file_get_contents("php://input"), true)['data'];
         $column = $data['typeFilter'] == 'priority' ? 'tc.importance' : 'ex.execution_ts';
-        $query = $this->select('*', 'tcversions tc')
-        ->join('executions ex', 'tc.id = ex.tcversion_id', 'INNER') 
+        $query = $this->selectDistinct('tc.id', 'tcversions tc')
+        ->join('executions ex', 'tc.id = ex.tcversion_id', 'LEFT') 
         ->orderBy($column,$data['arrangement'])
         ->getQuery();
         

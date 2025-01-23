@@ -66,7 +66,7 @@ class TcSort extends BaceController
         
             this.response.data.forEach(sortedTestCase => 
             {
-                let lastTestCase = testCasesBody.querySelector(`[name="tcaseSet[${sortedTestCase.tcversion_id}]"]`);
+                let lastTestCase = testCasesBody.querySelector(`[name="tcaseSet[${sortedTestCase.id}]"]`);
         
                 if (lastTestCase instanceof Element)
                 {

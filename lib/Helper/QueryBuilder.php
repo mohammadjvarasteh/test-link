@@ -17,9 +17,16 @@ trait QueryBuilder
     // SELECT query
     public function select($columns = '*', $table)
     {
-        $this->query = 'SELECT ' . $columns . ' FROM ' . $table;
+        $this->query = 'SELECT DISTINCT  ' . $columns . ' FROM ' . $table;
         return $this;
     }
+
+    public function selectDistinct($columns = '*', $table)
+    {
+        $this->query = 'SELECT DISTINCT  ' . $columns . ' FROM ' . $table;
+        return $this;
+    }
+
 
     // WHERE clause
     public function where($condition, $params = [])
