@@ -209,8 +209,10 @@ if( $doIt ) {
     break;
 
     case 'testcases_table_view':
+			
+		$smarty->assign('baseRoute', config_get('restAPI')->basePath);  
+		$smarty->assign('apiKey', 'c8a540fce43725f6ce34f6cc8f991f67');
 		$sortFilterHtml = $smarty->fetch($template_dir.'/tcSort.tpl');  
-
 		moveTestCasesViewer($db, $smarty, $tproject_mgr, $tree_mgr, $args, null, $sortFilterHtml);  
 
     break;
