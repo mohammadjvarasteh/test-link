@@ -205,24 +205,20 @@ if( $doIt ) {
     break;
 
     case 'move_testcases_viewer':
-      moveTestCasesViewer($db,$smarty,$tproject_mgr,$tree_mgr,$args);
+		moveTestCasesViewer($db,$smarty,$tproject_mgr,$tree_mgr,$args);
     break;
 
     case 'testcases_table_view':
-      $cf = null;
-      $cf_map = $tcase_mgr->get_linked_cfields_at_design(0,null,null,null,$args->tprojectID);    
-      if(!is_null($cf_map)) {
-        $cfOpt = array('addCheck' => true, 'forceOptional' => true);
-        $cf = $tcase_mgr->cfield_mgr->html_table_inputs($cf_map,'',null,$cfOpt);
-      }
+		$sortFilterHtml = $smarty->fetch($template_dir.'/tcSort.tpl');  
 
-      moveTestCasesViewer($db,$smarty,$tproject_mgr,$tree_mgr,$args,null,$cf);
+		moveTestCasesViewer($db, $smarty, $tproject_mgr, $tree_mgr, $args, null, $sortFilterHtml);  
+
     break;
 
 
     case 'reorder_testsuites':
-      $ret = reorderTestSuiteViewer($smarty,$tree_mgr,$args);
-      $level = is_null($ret) ? $level : $ret;
+		$ret = reorderTestSuiteViewer($smarty,$tree_mgr,$args);
+		$level = is_null($ret) ? $level : $ret;
     break;
 
     case 'do_move':

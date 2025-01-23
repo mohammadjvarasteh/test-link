@@ -37,6 +37,7 @@ use lib\Helper\QueryBuilder;
         $query = $this->select('*', 'tcversions tc')
         ->join('executions ex', 'tc.id = ex.testcase_id', 'INNER') 
         ->orderBy('tc.importance','DESC')
+        ->orderBy('ex.execution_ts', 'DESC')
         ->getQuery();
         
         $result = $this->db->exec_query($query);
