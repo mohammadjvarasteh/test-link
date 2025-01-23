@@ -79,14 +79,24 @@ trait QueryBuilder
 
     public function orderBy($column, $direction = 'ASC')
     {
-        $direction = strtoupper($direction);
-        if (!in_array($direction, ['ASC', 'DESC'])) {
-            throw new \InvalidArgumentException('Invalid order direction. Use "ASC" or "DESC".');
+        if (empty($this->query)) 
+        {
+            throw new \Exception("No query started. Use select() or another method first.");
         }
+    
+        // Add to ORDER BY clause
+        $query = ' ORDER BY ' . $column . ' ' . strtoupper($direction);
+        if (strpos($this->query, 'ORDER BY') != false)
+        {
+            $query = ', ' . $column . ' ' . strtoupper($direction);
+        } 
 
-        $this->query .= ' ORDER BY ' . $column . ' ' . $direction;
+        $this->query .= $query;
+
+
         return $this;
     }
+    
 
     // Execute query
     public function execute($db)

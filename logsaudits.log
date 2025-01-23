@@ -8,3 +8,27 @@
 		Login for 'admin' from '::1' succeeded
 	[25/Jan/22 21:00:23][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
 		Login for 'admin' from '::1' succeeded
+	[25/Jan/23 08:05:13][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Project 'Test Project' - Test Plan 'test plan' was created
+	[25/Jan/23 08:06:21][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Project 'Test Project' - Test Plan 'test plan' - Build 'test build' was created
+	[25/Jan/23 08:27:40][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Project 'Test Project' - Test Plan 'test plan 2' was created
+	[25/Jan/23 08:27:40][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		User 'admin' was assigned the role 'admin' to the Test Plan 'test plan 2'
+	[25/Jan/23 08:40:51][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-1 : test case 1' version 1 was added to Test Plan test plan
+	[25/Jan/23 08:40:51][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-2 : test case 2' version 1 was added to Test Plan test plan
+	[25/Jan/23 08:40:52][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-3 : test case 3' version 1 was added to Test Plan test plan
+	[25/Jan/23 09:04:17][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-4 : test case 4' version 1 was added to Test Plan test plan
+	[25/Jan/23 09:10:47][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Project 'Test Project' - Test Plan 'test plan' - Build 'test build' was saved
+	[25/Jan/23 09:24:43][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-4' has been executed on Build 'test build' in the Test Plan 'test plan'.
+	[25/Jan/23 09:56:55][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-4' has been executed on Build 'test build' in the Test Plan 'test plan'.
+	[25/Jan/23 09:57:12][AUDIT][uifqoanont5h4fkq8ksrndorr7][GUI - Test Project ID : 1]
+		Test Case 'test-2' has been executed on Build 'test build' in the Test Plan 'test plan'.

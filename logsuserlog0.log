@@ -2080,3 +2080,922 @@ include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such 
 		E_WARNING
 include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
 [<<][6791f501ecb93731026775][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 07:51:29][25/Jan/23 07:51:30][took 0.034855 secs]
+[>>][6791f80a526e0583841932][DEFAULT][/testlink/index.php][25/Jan/23 08:04:26]
+[>>][6791f80ad9b0d999244351][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:04:26]
+[>>][6791f80ae02e3839946417][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:04:26]
+[>>][6791f80c8c398944363437][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:04:28]
+[>>][6791f81219928218165128][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:04:34]
+[>>][6791f81566477947597796][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:04:37]
+[>>][6791f81822418282166494][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:04:40]
+[>>][6791f83969ee8817445277][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:05:13]
+[>>][6791f84a626eb358796191][DEFAULT][/testlink/index.php][25/Jan/23 08:05:30]
+[>>][6791f84a8a99d518447944][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:05:30]
+[>>][6791f84a8b490016842219][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:05:30]
+[>>][6791f84acaa25175233210][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:05:30]
+[>>][6791f853a3ff0557868191][DEFAULT][/testlink/lib/plan/buildView.php][25/Jan/23 08:05:39]
+[>>][6791f856de6f7887011909][DEFAULT][/testlink/lib/plan/buildEdit.php][25/Jan/23 08:05:42]
+[>>][6791f87d308a8703671968][DEFAULT][/testlink/lib/plan/buildEdit.php][25/Jan/23 08:06:21]
+[>>][6791f8e081747951176827][DEFAULT][/testlink/index.php][25/Jan/23 08:08:00]
+[>>][6791f8e0a6eff962438874][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:08:00]
+[>>][6791f8e0b04f9910899886][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:08:00]
+[>>][6791f8e0e1037062004576][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:08:00]
+[>>][6791f8e3cacd1706815438][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:08:03]
+[>>][6791f8e438cc4403652449][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:08:04]
+[>>][6791f8e4393ea482645091][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:08:04]
+[>>][6791f8e75a9c5206101968][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:08:07]
+[>>][6791f8ff3cb30065262350][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:08:31]
+[>>][6791f8ff96af1728118678][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:08:31]
+[>>][6791f90f5b671759693133][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:08:47]
+[>>][6791f9108decf680687518][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:08:48]
+[>>][6791f921e1626388495551][DEFAULT][/testlink/index.php][25/Jan/23 08:09:05]
+[>>][6791f92214212935925755][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:09:06]
+[>>][6791f92218264858616018][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:09:06]
+[>>][6791f9225698c479640658][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:09:06]
+[>>][6791f9254f7da724545821][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:09:09]
+[>>][6791f92583596566092011][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:09:09]
+[>>][6791f925850ae738427570][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:09]
+[>>][6791f925e8891183939454][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:09]
+[>>][6791f93e5b680858285186][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:09:34]
+[>>][6791f93ead808083427967][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:34]
+[>>][6791f94177a6a565638076][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:09:37]
+[>>][6791f941c914d971215972][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:37]
+[>>][6791f94587df0164952444][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:41]
+[>>][6791f945b24a3262188557][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:09:41]
+[>>][6791f95e6b3b2967231867][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:06]
+[>>][6791f95ec8738211813109][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:06]
+[>>][6791f95f08042870121858][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:07]
+[>>][6791f95f393d9661116990][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:07]
+[>>][6791f95f6c913340775513][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:07]
+[>>][6791f9629fbf0109429272][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:10:10]
+[>>][6791f962f354c370099665][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:10]
+[>>][6791f9684a80f743219777][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:10:16]
+[>>][6791f968a02e3258359723][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:16]
+[>>][6791f96bd7c3b149903433][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:10:19]
+[>>][6791f96c33cb9327689054][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:10:20]
+[>>][6791f98578a10569495153][DEFAULT][/testlink/index.php][25/Jan/23 08:10:45]
+[>>][6791f9859d751349031234][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:10:45]
+[>>][6791f9859fe2a509791618][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:10:45]
+[>>][6791f985e1bd6641558490][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:10:45]
+[>>][6791f9b1547a1197883897][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:11:29]
+[>>][6791f9b18f6fb577486686][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:11:29]
+[>>][6791f9b194af2753244723][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:29]
+[>>][6791f9b23cecb544662395][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:11:30]
+[>>][6791f9b4df710309275657][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:32]
+[>>][6791f9b6613b0583703781][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:34]
+[>>][6791f9b699162358274621][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:11:34]
+[>>][6791f9b69ca42358235570][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:34]
+[>>][6791f9b8aab9d856100098][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:36]
+[>>][6791f9b9f40d9399763915][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:37]
+[>>][6791f9ba94be1330394929][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:38]
+[>>][6791f9bb0bce6743736228][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:39]
+[>>][6791f9bba5165131905156][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:39]
+[>>][6791f9bc1baea002673003][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:40]
+[>>][6791f9bc4aa49624624569][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:40]
+[>>][6791f9bd6a8f4408346655][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:41]
+[>>][6791f9bdde537284498828][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:41]
+[>>][6791f9be1ecaf191169587][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:42]
+[>>][6791f9bea325b198740696][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:42]
+[>>][6791f9beda76f692651064][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:11:42]
+[>>][6791f9c2caa03188688007][DEFAULT][/testlink/lib/project/projectView.php][25/Jan/23 08:11:46]
+[>>][6791f9c7571ba979166063][DEFAULT][/testlink/index.php][25/Jan/23 08:11:51]
+[>>][6791f9c779969194518026][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:11:51]
+[>>][6791f9c77a36f586620539][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:11:51]
+[>>][6791f9c809a0b296077643][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:11:52]
+[>>][6791f9ca4c07e843423984][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:11:54]
+[>>][6791f9cc612bc808774702][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:11:56]
+[>>][6791f9d555eb1107471971][DEFAULT][/testlink/index.php][25/Jan/23 08:12:05]
+[>>][6791f9d5798b0331483952][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:12:05]
+[>>][6791f9d57a319078075608][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:12:05]
+[>>][6791f9d5c8aa6999277680][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:12:05]
+[>>][6791f9d86622a692249755][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:12:08]
+[>>][6791f9d89b195264295647][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:12:08]
+[>>][6791f9d89c52e614533803][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:12:08]
+[>>][6791f9d916b94471287212][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:12:09]
+[>>][6791f9ef7287b707111035][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:12:31]
+[>>][6791f9efcad37420414325][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:12:31]
+[>>][6791fa0701700941146808][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:12:55]
+[>>][6791fa07324a5338212273][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:12:55]
+[>>][6791fa0733348675946904][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:12:55]
+[>>][6791fa0787867731964740][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:12:55]
+[>>][6791fa15742ac138931339][DEFAULT][/testlink/index.php][25/Jan/23 08:13:09]
+[>>][6791fa15a2d41346154018][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:13:09]
+[>>][6791fa15a3a98834131320][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:13:09]
+[>>][6791fa16069b3289319771][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:13:10]
+[>>][6791fa18b49d7898796272][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:13:12]
+[>>][6791fa18e21a7331197512][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:13:12]
+[>>][6791fa18e2e85263693780][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:13:12]
+[>>][6791fa6815562197954780][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:14:32]
+[>>][6791fa6992029347946932][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:14:33]
+[>>][6791fa6b2ec16683811416][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:14:35]
+[>>][6791fa6c503f1741203991][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:14:36]
+[>>][6791fa7924762916513826][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:14:49]
+[>>][6791fa8c59967388359241][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:15:08]
+[>>][6791faa0ea117802488890][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:15:28]
+[>>][6791faa6d218a279846849][DEFAULT][/testlink/lib/execute/execHistory.php][25/Jan/23 08:15:34]
+[>>][6791fabc9eca7845172135][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:15:56]
+[>>][6791fac215a18373264695][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:16:02]
+[>>][6791facea6ece242990124][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:16:14]
+[>>][6791fad62bce2033566734][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:16:22]
+[>>][6791fadab7d37611094237][DEFAULT][/testlink/lib/execute/execHistory.php][25/Jan/23 08:16:26]
+[>>][6791fae40ac82784390293][DEFAULT][/testlink/index.php][25/Jan/23 08:16:36]
+[>>][6791fae43206d193910303][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:16:36]
+[>>][6791fae43475f331561281][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:16:36]
+[>>][6791fae476346244752221][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:16:36]
+[>>][6791faf786983900952320][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:16:55]
+[>>][6791fb0254b2e341915981][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:17:06]
+[>>][6791fb02a8531438142466][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:17:06]
+[>>][6791fb02a9155648411593][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:17:06]
+[>>][6791fb031911c877484792][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:17:07]
+[>>][6791fb061c54c741831283][DEFAULT][/testlink/index.php][25/Jan/23 08:17:10]
+[>>][6791fb0640b16953876690][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:17:10]
+[>>][6791fb0641f05133960809][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:17:10]
+[>>][6791fb06747b5101594486][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:17:10]
+[>>][6791fb08b44e4029168469][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:17:12]
+[>>][6791fb08de83b398589008][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:17:12]
+[>>][6791fb08e0289024420749][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:17:12]
+[>>][6791fb095f1fb137826291][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:17:13]
+[>>][6791fb098d85a279865961][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:17:13]
+[>>][6791fb0c7280c411971747][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:17:16]
+[>>][6791fb1ca7914777203897][DEFAULT][/testlink/lib/testcases/containerEdit.php][25/Jan/23 08:17:32]
+[>>][6791fb3d15487779470321][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:18:05]
+[>>][6791fb4eaa81c094127252][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:18:22]
+[>>][6791fb69b3a60478429639][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:18:49]
+[>>][6791fc0b785f5860097152][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:21:31]
+[>>][6791fc8b38ae3186117057][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:23:39]
+[>>][6791fd4cd408f622934289][DEFAULT][/testlink/index.php][25/Jan/23 08:26:52]
+[>>][6791fd4d06195945038303][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:26:53]
+[>>][6791fd4d08b09525658960][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:26:53]
+[>>][6791fd4d39bbd880443593][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:26:53]
+[>>][6791fd4ee7dcc717677186][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:26:54]
+[>>][6791fd53db917065220469][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:26:59]
+[>>][6791fd5895943321386677][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:27:04]
+[>>][6791fd6344416424290915][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:27:15]
+[>>][6791fd7bbc93e740296284][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:27:39]
+[>>][6791fd827117d203126927][DEFAULT][/testlink/index.php][25/Jan/23 08:27:46]
+[>>][6791fd829342f143334327][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:27:46]
+[>>][6791fd829376d455120691][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:27:46]
+[>>][6791fd82d1f0a001881622][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:27:46]
+[>>][6791fd880922f636032720][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:27:52]
+[>>][6791fd88353d6270224223][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:27:52]
+[>>][6791fd8836403217083586][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:27:52]
+[>>][6791fd88a8947242477239][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:27:52]
+[>>][6791fd88e7445142866978][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:27:52]
+[>>][6791fd8c8778c857046806][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:27:56]
+[>>][6791fd950cac5151155775][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:28:05]
+[>>][6791fdd17a56a432250277][DEFAULT][/testlink/index.php][25/Jan/23 08:29:05]
+[>>][6791fdd1a608c626307542][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:29:05]
+[>>][6791fdd1a9940676262289][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:29:05]
+[>>][6791fdd1f0eb3195654498][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:29:05]
+[>>][6791fddc7ec94113810733][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:29:16]
+[>>][6791fdec448ed558797404][DEFAULT][/testlink/lib/plan/planEdit.php][25/Jan/23 08:29:32]
+[>>][6791fe0271c28448183102][DEFAULT][/testlink/lib/events/eventviewer.php][25/Jan/23 08:29:54]
+[>>][6791fe3b92a84640317877][DEFAULT][/testlink/lib/plan/planView.php][25/Jan/23 08:30:51]
+[>>][6791fe4214eba502283053][DEFAULT][/testlink/index.php][25/Jan/23 08:30:58]
+[>>][6791fe4236f51211806300][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:30:58]
+[>>][6791fe4239ed9057925548][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:30:58]
+[>>][6791fe4268817253773994][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:30:58]
+[>>][6791fe4d2b773274635569][DEFAULT][/testlink/lib/plan/buildView.php][25/Jan/23 08:31:09]
+[>>][6791fe55c5b26603917934][DEFAULT][/testlink/index.php][25/Jan/23 08:31:17]
+[>>][6791fe55e866f567943635][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:31:17]
+[>>][6791fe55e8faf407639344][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:31:17]
+[>>][6791fe5629139904781094][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:31:18]
+[>>][6791fe58919b7564433709][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:31:20]
+[>>][6791fe58b5dba471603906][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:31:20]
+[>>][6791fe58b79c1795939097][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:31:20]
+[>>][6791fe5916fda104213814][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:31:21]
+[>>][6791fe5943c25337104689][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:31:21]
+[>>][6791fe63b5ec6299660567][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:31:31]
+[>>][6791fe6a833c8047241040][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:31:38]
+[>>][6791fe6ab4914331744984][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:31:38]
+[>>][6791fe78ac69b047586981][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:31:52]
+[>>][6791fe97a931b312120184][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:32:23]
+[>>][6791fe9a71749686006193][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:32:26]
+[>>][6791fe9e157c0886989395][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:32:30]
+[>>][6791fea41cffe516430664][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:32:36]
+[>>][6791fea468646359754380][DEFAULT][/lib/requirements/reqSpecListTree.php][25/Jan/23 08:32:36]
+[>>][6791fea4686a2584282943][DEFAULT][/lib/project/project_req_spec_mgmt.php][25/Jan/23 08:32:36]
+[>>][6791fea52442c408169596][DEFAULT][/testlink/lib/ajax/getrequirementnodes.php][25/Jan/23 08:32:37]
+[>>][6791feada640c963364979][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:32:45]
+[>>][6791feadd3101892916193][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:32:45]
+[>>][6791feadd9bb5100948163][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:32:45]
+[>>][6791feae38cf9465078746][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:32:46]
+[>>][6791feae7434b771689760][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:32:46]
+[>>][6791feb0e1a45631635659][DEFAULT][/testlink/lib/platforms/platformsView.php][25/Jan/23 08:32:48]
+[>>][6791feb4b0da1891300131][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:32:52]
+[>>][6791feb4da842401985683][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:32:52]
+[>>][6791feb4dc5b8698597313][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:32:52]
+[>>][6791feb548c54552356845][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:32:53]
+[>>][6791feb59379f477586229][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:32:53]
+[>>][6791fec7f410b016645020][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:33:11]
+[>>][6791fed9657ee090190373][DEFAULT][/lib/testcases/tcCreateFromIssueMantisXML.php][25/Jan/23 08:33:29]
+[>>][6791fede8a3cc081485966][DEFAULT][/testlink/index.php][25/Jan/23 08:33:34]
+[>>][6791fedeb42f5893038246][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:33:34]
+[>>][6791fedeb5227882925645][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:33:34]
+[>>][6791fedf1f7ec435646216][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:33:35]
+[>>][6791ff01d72df785903743][DEFAULT][/testlink/index.php][25/Jan/23 08:34:09]
+[>>][6791ff0206693744589474][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:34:10]
+[>>][6791ff02093c7971397080][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:34:10]
+[>>][6791ff023f8d5739687839][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:34:10]
+[>>][6791ff088c9f5940991223][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:34:16]
+[>>][6791ff08c66cd738044896][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][25/Jan/23 08:34:16]
+[>>][6791ff08da6ec754236664][DEFAULT][/testlink/lib/results/printDocOptions.php][25/Jan/23 08:34:16]
+[>>][6791ff09b9e66997909056][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:34:17]
+[>>][6791ff0f66511229519970][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:34:23]
+[>>][6791ff1cecdc1679633682][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:36]
+[>>][6791ff1d07fb5311137864][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:37]
+[>>][6791ff1d3ff09959482303][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:37]
+[>>][6791ff1e34e87977685624][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:38]
+[>>][6791ff1e6a7cc145643893][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:38]
+[>>][6791ff1f9308c907905634][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:39]
+[>>][6791ff1fe3e09028791499][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:34:39]
+[>>][6791ff70c63b9779018239][DEFAULT][/testlink/index.php][25/Jan/23 08:36:00]
+[>>][6791ff70ea84f004363983][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:36:00]
+[>>][6791ff70eb266206976794][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:00]
+[>>][6791ff7143cb4676266556][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:01]
+[>>][6791ff7c82a5d688313420][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:36:12]
+[>>][6791ff7cb0114234155184][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:36:12]
+[>>][6791ff7cb02c6874656683][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:36:12]
+[>>][6791ff7d2b9e2362686848][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:13]
+[>>][6791ff7d5b864329969147][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:13]
+[>>][6791ff804b3b2552130723][DEFAULT][/testlink/index.php][25/Jan/23 08:36:16]
+[>>][6791ff8078a8a765021024][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:16]
+[>>][6791ff80bd364833381379][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:16]
+[>>][6791ff87388a7338977772][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:36:23]
+[>>][6791ff876c2cc060197844][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:36:23]
+[>>][6791ff876cf04669050868][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:23]
+[>>][6791ff87cb225755548803][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:23]
+[>>][6791ff8ab629a021478995][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:26]
+[>>][6791ff8ae193f517478778][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:26]
+[>>][6791ff8b6ee5f293503866][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:27]
+[>>][6791ff8c46f96638348219][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:36:28]
+[>>][6791ff8e09de0152646550][DEFAULT][/testlink/index.php][25/Jan/23 08:36:30]
+[>>][6791ff8e2df9f927927621][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:36:30]
+[>>][6791ff8e2e97b928905937][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:30]
+[>>][6791ff8e5dbf0168453200][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:30]
+[>>][6791ff9162a71134799197][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:36:33]
+[>>][6791ff9189743647668270][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:36:33]
+[>>][6791ff918acc0204120177][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:36:33]
+[>>][6791ff91d92b9024321480][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:33]
+[>>][6791ff92128cb152339169][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:34]
+[>>][6791ff93a711b683859093][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:36:35]
+[>>][6791ff9c0e967209040698][DEFAULT][/testlink/lib/testcases/tcAssign2Tplan.php][25/Jan/23 08:36:44]
+[>>][6791ff9e4cca7278613205][DEFAULT][/testlink/index.php][25/Jan/23 08:36:46]
+[>>][6791ff9e756a1134711128][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:36:46]
+[>>][6791ff9e790ab011977671][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:46]
+[>>][6791ff9ea93ea748094015][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:36:46]
+[>>][6791ffa2410d3856766968][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:36:50]
+[>>][6791ffa2655d2533116253][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][25/Jan/23 08:36:50]
+[>>][6791ffa26846c174847020][DEFAULT][/testlink/lib/results/printDocOptions.php][25/Jan/23 08:36:50]
+[>>][6791ffa2b3506895202101][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:50]
+[>>][6791ffa2e20c5683415404][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:36:50]
+[>>][679200797f072985780991][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:40:25]
+[>>][67920079aee1c678015112][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:40:25]
+[>>][679200933fd49884194831][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 08:40:51]
+[>>][67920095a20c0998786366][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][25/Jan/23 08:40:53]
+[>>][67920095ee495362653400][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:40:53]
+[>>][67920096266d9252943498][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:40:54]
+[>>][679200ac01c6b651285082][DEFAULT][/testlink/index.php][25/Jan/23 08:41:16]
+[>>][679200ac2750d632229433][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:41:16]
+[>>][679200ac2916b980414619][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:41:16]
+[>>][679200ac60473054329518][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:41:16]
+[>>][679200b29bcc2017083377][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:41:22]
+[>>][679200b2d4d7e928299903][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:41:22]
+[>>][679200b2d8986971620040][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:41:22]
+[>>][679200b358578205902661][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:41:23]
+[>>][679200b79d114124378189][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:27]
+[>>][679200bc75b25523191169][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:32]
+[>>][679200bca4955218775761][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:32]
+[>>][679200bd36ed7132891551][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:33]
+[>>][679200bd6892c213198788][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:33]
+[>>][679200bdd200a915183484][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:33]
+[>>][679200be0d2d6680876340][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:34]
+[>>][679200be6bf42252762171][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:34]
+[>>][679200be99399171890729][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:34]
+[>>][679200c92de88146534076][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:41:45]
+[>>][6792023c3698c718217409][DEFAULT][/testlink/index.php][25/Jan/23 08:47:56]
+[>>][6792023c63670996979567][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:47:56]
+[>>][6792023c663f6566637037][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:47:56]
+[>>][6792023cbc372738814079][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:47:56]
+[>>][6792024021c88287010682][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:48:00]
+[>>][6792024058ee6574597738][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:48:00]
+[>>][6792024058ee6470952400][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:00]
+[>>][67920240e3301669377389][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:00]
+[>>][6792024a3bcbc377154741][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:10]
+[>>][67920268c8d76652963007][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:40]
+[>>][679202690ab46604886566][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:41]
+[>>][67920269353eb556630092][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:41]
+[>>][67920269b87b9218235394][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:48:41]
+[>>][67920277ef11e396291967][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:48:55]
+[>>][6792027aecfb0487686040][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:48:58]
+[>>][6792027b32ffe327485742][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:48:59]
+[>>][6792027b63f5f657231044][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:48:59]
+[>>][6792027ba8e63609566100][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:48:59]
+[>>][679202805ff8c868351399][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:04]
+[>>][67920281bb66b547041511][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:05]
+[>>][6792028244214018878761][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:06]
+[>>][67920283794cc203175972][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:07]
+[>>][67920283a74ec285658703][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:07]
+[>>][679202887c374751739489][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:49:12]
+[>>][679202892aea1503401022][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:49:13]
+[>>][6792028ced49a227103518][DEFAULT][/testlink/index.php][25/Jan/23 08:49:16]
+[>>][6792028d1d0a2455159403][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:49:17]
+[>>][6792028d1df25540338429][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:49:17]
+[>>][6792028d91085176099535][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:49:17]
+[>>][679202b7907be362003580][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:49:59]
+[>>][679202b7d8d8a241768458][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 08:49:59]
+[>>][679202b7da982031797009][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:49:59]
+[>>][679202b845b50674205563][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:50:00]
+[>>][679202c3d458c580739827][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:50:11]
+[>>][679202c414773379853914][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:50:12]
+[>>][679202c4c6809168618786][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:50:12]
+[>>][679202c509021973649319][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 08:50:13]
+[>>][679202d08ffec210680957][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:50:24]
+[>>][679202d16548b762214661][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 08:50:25]
+[>>][679202dfd4dbe036592311][DEFAULT][/testlink/index.php][25/Jan/23 08:50:39]
+[>>][679202e00444a800130499][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 08:50:40]
+[>>][679202e0068c8503043027][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:50:40]
+[>>][679202e040b44732365546][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 08:50:40]
+[>>][679202e2a1372745788730][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 08:50:42]
+[>>][679202e2c645a723798518][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 08:50:42]
+[>>][679202e2c7057094598411][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:50:42]
+[>>][679202e358f76313714442][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:50:43]
+[>>][679202e37bb85038789769][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 08:50:43]
+[>>][679202e6b1137213524107][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 08:50:46]
+[>>][679202ebd572a937369786][DEFAULT][/testlink/lib/testcases/tcEdit.php][25/Jan/23 08:50:51]
+[>>][679202f022644306887980][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:50:56]
+[>>][679202f18f5ac695038175][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:50:57]
+[>>][679202f339705965645187][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:50:59]
+[>>][679202f6c21de048671645][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:51:02]
+[>>][679202f70bc0f353925903][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:51:03]
+[>>][679202f74da50712079539][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:51:03]
+[>>][679202f74e166287296195][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][25/Jan/23 08:51:03]
+[>>][6792055f00d65390438196][DEFAULT][/testlink/lib/testcases/tcEdit.php][25/Jan/23 09:01:19]
+[>>][6792056043f79716472494][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 09:01:20]
+[>>][679205608cc35617168524][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:01:20]
+[>>][67920560b4442232151662][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:01:20]
+[>>][6792056b3a0e1117363551][DEFAULT][/testlink/lib/testcases/tcEdit.php][25/Jan/23 09:01:31]
+[>>][6792056b92bc1887290668][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:01:31]
+[>>][67920578466b9002350555][DEFAULT][/testlink/index.php][25/Jan/23 09:01:44]
+[>>][6792057868930797484493][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:01:44]
+[>>][679205786d2c1988234563][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:01:44]
+[>>][67920578a2937835615048][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:01:44]
+[>>][6792057d767d2204181349][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:01:49]
+[>>][6792057d9aede831331907][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 09:01:49]
+[>>][6792057d9c1de316492759][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:01:49]
+[>>][6792057df30c7741664805][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:01:49]
+[>>][6792057e3f710206036457][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:01:50]
+[>>][679205beccdf3277420675][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:02:54]
+[>>][679205d83eb6e400075195][DEFAULT][/testlink/index.php][25/Jan/23 09:03:20]
+[>>][679205d860605014879314][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:03:20]
+[>>][679205d861943453720127][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:03:20]
+[>>][679205d89825e552603345][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:03:20]
+[>>][679205e631df7805173289][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:03:34]
+[>>][679205e6634b1217335249][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:03:34]
+[>>][679205e6640e3935805216][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:03:34]
+[>>][679205e6dd167205094084][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:03:34]
+[>>][679205ede0a19988443883][DEFAULT][/testlink/index.php][25/Jan/23 09:03:41]
+[>>][679205ee0ca7f998422902][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:03:42]
+[>>][679205ee0d388467002228][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:03:42]
+[>>][679205ee45601266919816][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:03:42]
+[>>][679205f1100ac831555251][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:03:45]
+[>>][679205f1332b2475032724][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][25/Jan/23 09:03:45]
+[>>][679205f1381d2272501970][DEFAULT][/testlink/lib/results/printDocOptions.php][25/Jan/23 09:03:45]
+[>>][679205f18eaae507557265][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:03:45]
+[>>][679205f1bbe81488805694][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:03:45]
+[>>][679205f514ce9754340319][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:49]
+[>>][679205f5435b0126164604][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:49]
+[>>][679205f6d91e4858621462][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:50]
+[>>][679205f71c2b4653988442][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:51]
+[>>][679205f83bd4d111478813][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:52]
+[>>][679205f872c32104062475][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:52]
+[>>][679205fa7c117052957869][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:54]
+[>>][679205faaa879662235996][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:54]
+[>>][679205fbc1a27095261125][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:55]
+[>>][679205fbf3e6d616826971][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:55]
+[>>][679205ffc0ab1958795953][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:03:59]
+[>>][67920601817a8195976020][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:01]
+[>>][67920601dba73174949828][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:01]
+[>>][679206021f4ad092973792][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:02]
+[>>][6792060281a98205755122][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:02]
+[>>][679206049ea82047543901][DEFAULT][/testlink/lib/results/printDocOptions.php][25/Jan/23 09:04:04]
+[>>][67920605b3202218955555][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:05]
+[>>][67920605eee10834928362][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:05]
+[>>][679206115717f766528337][DEFAULT][/testlink/lib/plan/planAddTC.php][25/Jan/23 09:04:17]
+[>>][6792061333098688920923][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][25/Jan/23 09:04:19]
+[>>][67920613a7afa432857999][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:04:19]
+[>>][6792061844e23968196362][DEFAULT][/testlink/index.php][25/Jan/23 09:04:24]
+[>>][67920618671c4333148344][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:04:24]
+[>>][6792061867942062874775][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:04:24]
+[>>][67920618acb11588774317][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:04:24]
+[>>][679206457b8bd157937359][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:05:09]
+[>>][67920645a78ba399820136][DEFAULT][/testlink/lib/testcases/listTestCases.php][25/Jan/23 09:05:09]
+[>>][67920645a9b86847898593][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:05:09]
+[>>][6792064617c1a698970064][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:05:10]
+[>>][679206467e47f328640884][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][25/Jan/23 09:05:10]
+[>>][679206e948d79873714553][DEFAULT][/testlink/index.php][25/Jan/23 09:07:53]
+[>>][679206e96cc66711527090][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:07:53]
+[>>][679206e9709fa494678197][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:07:53]
+[>>][679206e99b7e3357706680][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:07:53]
+[>>][679206ef3fb2d314030177][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:07:59]
+[>>][679206ef73420184602249][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:07:59]
+[>>][679206ef74f1c274503736][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:07:59]
+[>>][679206efd407a375495151][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:07:59]
+[>>][679206f2a3a27161502765][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:08:02]
+[>>][679206f2cc0b9167004581][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:08:02]
+[>>][679206f419a34203577421][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:08:04]
+[>>][679206f445256185726493][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:08:04]
+[>>][679206fa9238a665119613][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:08:10]
+[>>][6792070a0dfd0154081457][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:08:26]
+[>>][6792076c22e6c318730556][DEFAULT][/testlink/lib/testcases/archiveData.php][25/Jan/23 09:10:04]
+[>>][6792077b42f77662665085][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:10:19]
+[>>][6792077be3621611859629][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:10:19]
+[>>][67920781099e6701729389][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:10:25]
+[>>][6792078142512780915995][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:10:25]
+[>>][67920788ea357047294842][DEFAULT][/testlink/index.php][25/Jan/23 09:10:32]
+[>>][679207891800a758811839][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:10:33]
+[>>][6792078919cb7810935895][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:10:33]
+[>>][67920789486ae542217716][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:10:33]
+[>>][6792078d63c31024919286][DEFAULT][/testlink/lib/plan/buildView.php][25/Jan/23 09:10:37]
+[>>][6792079184c91843855947][DEFAULT][/testlink/lib/plan/buildEdit.php][25/Jan/23 09:10:41]
+[>>][67920797cb6f4985386833][DEFAULT][/testlink/lib/plan/buildEdit.php][25/Jan/23 09:10:47]
+[>>][6792079c9c087951996380][DEFAULT][/testlink/index.php][25/Jan/23 09:10:52]
+[>>][6792079cbe479884598005][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:10:52]
+[>>][6792079cbf65d005935582][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:10:52]
+[>>][6792079ceea04017847079][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:10:52]
+[>>][67920a72964fb948518687][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:22:58]
+[>>][67920a72d252b756182921][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:22:58]
+[>>][67920a72d2fd7647341134][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:22:58]
+[>>][67920a735a154426772784][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:22:59]
+[>>][67920aa703224441987113][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:23:51]
+[>>][67920aaed5e7f406719105][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:23:58]
+[>>][67920abf91e3d539945118][DEFAULT][/testlink/index.php][25/Jan/23 09:24:15]
+[>>][67920abfb6c69428575786][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:24:15]
+[>>][67920abfb8b69648978786][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:24:15]
+[>>][67920abfef1a2032866857][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:24:15]
+[>>][67920ac2d2481436463008][DEFAULT][/testlink/lib/testcases/tcAssignedToUser.php][25/Jan/23 09:24:18]
+[>>][67920ac719423437370950][DEFAULT][/testlink/lib/testcases/tcAssignedToUser.php][25/Jan/23 09:24:23]
+[>>][67920ac8231bc382245816][DEFAULT][/testlink/index.php][25/Jan/23 09:24:24]
+[>>][67920ac845728444284508][DEFAULT][/testlink/lib/general/navBar.php][25/Jan/23 09:24:24]
+[>>][67920ac845ebd023621880][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:24:24]
+[>>][67920ac87b68c286512637][DEFAULT][/testlink/lib/general/mainPage.php][25/Jan/23 09:24:24]
+[>>][67920aca35e50084256467][DEFAULT][/testlink/lib/general/frmWorkArea.php][25/Jan/23 09:24:26]
+[>>][67920aca69877951570978][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:24:26]
+[>>][67920aca6a963231046989][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:24:26]
+[>>][67920acae568b356594605][DEFAULT][/testlink/lib/execute/execDashboard.php][25/Jan/23 09:24:26]
+[>>][67920ad163a8f459994758][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:24:33]
+[>>][67920ad3baa8e366744795][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:24:35]
+[>>][67920ad4ce516348669393][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:24:36]
+[>>][67920adb80595879328558][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:24:43]
+[>>][67920adc4018e641443375][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:24:44]
+[>>][67920d3ee4712188031700][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:54]
+	[25/Jan/23 09:34:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:34:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d3ee4712188031700][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:54][25/Jan/23 09:34:55][took 0.083585 secs]
+[>>][67920d3f05382105229995][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:55]
+[<<][67920d3f05382105229995][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:55][25/Jan/23 09:34:55][took 0.116945 secs]
+[>>][67920d3f224ab803951324][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:55]
+	[25/Jan/23 09:34:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:34:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:34:55][WARNING][<nosession>][GUI]
+		E_WARNING
+Attempt to read property "EOF" on bool - in G:\xampp\htdocs\testlink\lib\functions\database.class.php - Line 235
+[<<][67920d3f224ab803951324][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:34:55][25/Jan/23 09:34:55][took 0.104988 secs]
+[>>][67920d56e62d9066411929][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:18]
+	[25/Jan/23 09:35:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:35:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d56e62d9066411929][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:18][25/Jan/23 09:35:19][took 0.095611 secs]
+[>>][67920d570a21f601423498][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:19]
+[<<][67920d570a21f601423498][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:19][25/Jan/23 09:35:19][took 0.101691 secs]
+[>>][67920d572382a243918521][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:19]
+	[25/Jan/23 09:35:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:35:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d572382a243918521][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:19][25/Jan/23 09:35:19][took 0.047357 secs]
+[>>][67920d78d1e30202864960][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:52]
+	[25/Jan/23 09:35:52][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:35:52][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d78d1e30202864960][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:52][25/Jan/23 09:35:52][took 0.068967 secs]
+[>>][67920d78e30e7070776703][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:52]
+[<<][67920d78e30e7070776703][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:52][25/Jan/23 09:35:53][took 0.08893 secs]
+[>>][67920d79050f4552357860][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:53]
+	[25/Jan/23 09:35:53][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:35:53][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:35:53][WARNING][<nosession>][GUI]
+		E_WARNING
+Attempt to read property "EOF" on bool - in G:\xampp\htdocs\testlink\lib\functions\database.class.php - Line 235
+[<<][67920d79050f4552357860][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:35:53][25/Jan/23 09:35:53][took 0.038086 secs]
+[>>][67920d8aa33f2866969986][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10]
+	[25/Jan/23 09:36:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:36:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d8aa33f2866969986][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10][25/Jan/23 09:36:10][took 0.076187 secs]
+[>>][67920d8ab6332377256804][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10]
+[<<][67920d8ab6332377256804][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10][25/Jan/23 09:36:10][took 0.094536 secs]
+[>>][67920d8acda7a425194899][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10]
+	[25/Jan/23 09:36:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:36:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920d8acda7a425194899][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:36:10][25/Jan/23 09:36:10][took 0.052564 secs]
+[>>][67920df8319c5762883860][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00]
+	[25/Jan/23 09:38:00][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:00][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920df8319c5762883860][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00][25/Jan/23 09:38:00][took 0.082764 secs]
+[>>][67920df846212899330859][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00]
+[<<][67920df846212899330859][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00][25/Jan/23 09:38:00][took 0.096262 secs]
+[>>][67920df85dfec535417149][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00]
+	[25/Jan/23 09:38:00][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:00][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920df85dfec535417149][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:00][25/Jan/23 09:38:00][took 0.036822 secs]
+[>>][67920e04de923939568448][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:12]
+	[25/Jan/23 09:38:12][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:12][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920e04de923939568448][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:12][25/Jan/23 09:38:12][took 0.079767 secs]
+[>>][67920e04f2695835768625][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:12]
+[<<][67920e04f2695835768625][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:12][25/Jan/23 09:38:13][took 0.093607 secs]
+[>>][67920e0515aa1805662825][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:13]
+	[25/Jan/23 09:38:13][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:13][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:13][WARNING][<nosession>][GUI]
+		E_WARNING
+Attempt to read property "EOF" on bool - in G:\xampp\htdocs\testlink\lib\functions\database.class.php - Line 235
+[<<][67920e0515aa1805662825][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:13][25/Jan/23 09:38:13][took 0.037919 secs]
+[>>][67920e0d6a863174983127][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21]
+	[25/Jan/23 09:38:21][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:21][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920e0d6a863174983127][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21][25/Jan/23 09:38:21][took 0.075427 secs]
+[>>][67920e0d7d44c126034376][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21]
+[<<][67920e0d7d44c126034376][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21][25/Jan/23 09:38:21][took 0.092602 secs]
+[>>][67920e0d94530596044222][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21]
+	[25/Jan/23 09:38:21][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:38:21][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920e0d94530596044222][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:38:21][25/Jan/23 09:38:21][took 0.032835 secs]
+[>>][67920e5c68e72272914127][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40]
+	[25/Jan/23 09:39:40][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:39:40][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920e5c68e72272914127][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40][25/Jan/23 09:39:40][took 0.069357 secs]
+[>>][67920e5c7a2dc548792142][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40]
+[<<][67920e5c7a2dc548792142][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40][25/Jan/23 09:39:40][took 0.096781 secs]
+[>>][67920e5c92274909795011][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40]
+	[25/Jan/23 09:39:40][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:39:40][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:39:40][WARNING][<nosession>][GUI]
+		E_WARNING
+Attempt to read property "EOF" on bool - in G:\xampp\htdocs\testlink\lib\functions\database.class.php - Line 235
+[<<][67920e5c92274909795011][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:39:40][25/Jan/23 09:39:40][took 0.032318 secs]
+[>>][67920ecb9601a121792910][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31]
+	[25/Jan/23 09:41:31][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:41:31][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920ecb9601a121792910][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31][25/Jan/23 09:41:31][took 0.086495 secs]
+[>>][67920ecbab7cb733129273][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31]
+[<<][67920ecbab7cb733129273][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31][25/Jan/23 09:41:31][took 0.101229 secs]
+[>>][67920ecbc4977283313637][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31]
+	[25/Jan/23 09:41:31][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:41:31][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920ecbc4977283313637][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:41:31][25/Jan/23 09:41:31][took 0.045873 secs]
+[>>][67920f8fa623d655111877][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47]
+	[25/Jan/23 09:44:47][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:44:47][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920f8fa623d655111877][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47][25/Jan/23 09:44:47][took 0.078187 secs]
+[>>][67920f8fb9a53990047001][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47]
+[<<][67920f8fb9a53990047001][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47][25/Jan/23 09:44:47][took 0.094258 secs]
+[>>][67920f8fd113a430170121][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47]
+	[25/Jan/23 09:44:47][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:44:47][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:44:47][WARNING][<nosession>][GUI]
+		E_WARNING
+Attempt to read property "EOF" on bool - in G:\xampp\htdocs\testlink\lib\functions\database.class.php - Line 235
+[<<][67920f8fd113a430170121][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:44:47][25/Jan/23 09:44:47][took 0.041353 secs]
+[>>][67920fcec0a18649531594][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:50]
+	[25/Jan/23 09:45:50][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:45:50][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920fcec0a18649531594][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:50][25/Jan/23 09:45:50][took 0.104231 secs]
+[>>][67920fceda7e8468758032][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:50]
+[<<][67920fceda7e8468758032][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:50][25/Jan/23 09:45:51][took 0.106278 secs]
+[>>][67920fcf00d1d437934166][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:51]
+	[25/Jan/23 09:45:51][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:45:51][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67920fcf00d1d437934166][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:45:51][25/Jan/23 09:45:51][took 0.046051 secs]
+[>>][67921010405af233152334][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56]
+	[25/Jan/23 09:46:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:46:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921010405af233152334][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56][25/Jan/23 09:46:56][took 0.074492 secs]
+[>>][6792101052e5b241195343][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56]
+[<<][6792101052e5b241195343][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56][25/Jan/23 09:46:56][took 0.089895 secs]
+[>>][67921010693e7267793736][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56]
+	[25/Jan/23 09:46:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:46:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921010693e7267793736][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:46:56][25/Jan/23 09:46:56][took 0.059923 secs]
+[>>][6792101ad6108061157192][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:06]
+	[25/Jan/23 09:47:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:47:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792101ad6108061157192][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:06][25/Jan/23 09:47:06][took 0.085048 secs]
+[>>][6792101aeb35e660542403][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:06]
+[<<][6792101aeb35e660542403][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:06][25/Jan/23 09:47:07][took 0.096318 secs]
+[>>][6792101b0eef2346817576][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:07]
+	[25/Jan/23 09:47:07][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:47:07][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792101b0eef2346817576][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:47:07][25/Jan/23 09:47:07][took 0.066408 secs]
+[>>][6792126733651596276372][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:56:55]
+[>>][6792126863c1d900686966][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:56:56]
+[>>][67921275454f3977081148][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:57:09]
+[>>][6792127821569751881497][DEFAULT][/testlink/lib/execute/execSetResults.php][25/Jan/23 09:57:12]
+[>>][679212789e518503736071][DEFAULT][/testlink/lib/execute/execNavigator.php][25/Jan/23 09:57:12]
+[>>][679212b2e28ab437092239][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:10]
+	[25/Jan/23 09:58:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:58:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679212b2e28ab437092239][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:10][25/Jan/23 09:58:11][took 0.072286 secs]
+[>>][679212b30079a195503313][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:11]
+[<<][679212b30079a195503313][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:11][25/Jan/23 09:58:11][took 0.135806 secs]
+[>>][679212b3224bc609462278][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:11]
+	[25/Jan/23 09:58:11][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 09:58:11][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679212b3224bc609462278][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 09:58:11][25/Jan/23 09:58:11][took 0.111676 secs]
+[>>][6792134b1aa58785666530][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43]
+	[25/Jan/23 10:00:43][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:00:43][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792134b1aa58785666530][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43][25/Jan/23 10:00:43][took 0.075454 secs]
+[>>][6792134b2d740690912899][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43]
+[<<][6792134b2d740690912899][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43][25/Jan/23 10:00:43][took 0.105322 secs]
+[>>][6792134b47bf5472287410][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43]
+	[25/Jan/23 10:00:43][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:00:43][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792134b47bf5472287410][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:43][25/Jan/23 10:00:43][took 0.040837 secs]
+[>>][67921356f0b09531044261][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:54]
+	[25/Jan/23 10:00:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:00:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921356f0b09531044261][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:54][25/Jan/23 10:00:55][took 0.07809 secs]
+[>>][6792135710058690623660][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:55]
+[<<][6792135710058690623660][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:55][25/Jan/23 10:00:55][took 0.103727 secs]
+[>>][6792135729bca111468954][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:55]
+	[25/Jan/23 10:00:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:00:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792135729bca111468954][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:00:55][25/Jan/23 10:00:55][took 0.12104 secs]
+[>>][679214af55804301242211][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39]
+	[25/Jan/23 10:06:39][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:06:39][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679214af55804301242211][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39][25/Jan/23 10:06:39][took 0.075952 secs]
+[>>][679214af687b4710400361][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39]
+[<<][679214af687b4710400361][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39][25/Jan/23 10:06:39][took 0.101798 secs]
+[>>][679214af81cd6586513532][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39]
+	[25/Jan/23 10:06:39][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:06:39][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679214af81cd6586513532][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:39][25/Jan/23 10:06:39][took 0.046105 secs]
+[>>][679214bfbd265524249260][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55]
+	[25/Jan/23 10:06:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:06:55][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679214bfbd265524249260][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55][25/Jan/23 10:06:55][took 0.07776 secs]
+[>>][679214bfd091e027111717][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55]
+[<<][679214bfd091e027111717][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55][25/Jan/23 10:06:55][took 0.110492 secs]
+[>>][679214bfec0fe638089327][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55]
+	[25/Jan/23 10:06:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:06:56][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679214bfec0fe638089327][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:06:55][25/Jan/23 10:06:56][took 0.067133 secs]
+[>>][67921526be70a533522814][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38]
+	[25/Jan/23 10:08:38][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:08:38][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921526be70a533522814][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38][25/Jan/23 10:08:38][took 0.069716 secs]
+[>>][67921526d00a8609415766][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38]
+[<<][67921526d00a8609415766][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38][25/Jan/23 10:08:38][took 0.09656 secs]
+[>>][67921526e8167782944949][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38]
+	[25/Jan/23 10:08:38][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:08:38][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921526e8167782944949][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:38][25/Jan/23 10:08:38][took 0.031745 secs]
+[>>][67921531191d2940432492][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49]
+	[25/Jan/23 10:08:49][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:08:49][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921531191d2940432492][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49][25/Jan/23 10:08:49][took 0.069731 secs]
+[>>][679215312a93b948263679][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49]
+[<<][679215312a93b948263679][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49][25/Jan/23 10:08:49][took 0.085438 secs]
+[>>][679215314001b378559920][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49]
+	[25/Jan/23 10:08:49][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:08:49][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679215314001b378559920][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:08:49][25/Jan/23 10:08:49][took 0.05725 secs]
+[>>][6792154259e5a586302020][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06]
+	[25/Jan/23 10:09:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:09:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792154259e5a586302020][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06][25/Jan/23 10:09:06][took 0.081552 secs]
+[>>][679215426e517795837639][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06]
+[<<][679215426e517795837639][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06][25/Jan/23 10:09:06][took 0.09253 secs]
+[>>][67921542857ed581544240][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06]
+	[25/Jan/23 10:09:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:09:06][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][67921542857ed581544240][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:09:06][25/Jan/23 10:09:06][took 0.063517 secs]
+[>>][6792162eed01a271749163][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:02]
+	[25/Jan/23 10:13:03][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:13:03][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792162eed01a271749163][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:02][25/Jan/23 10:13:03][took 0.083553 secs]
+[>>][6792162f0da49828983189][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:03]
+[<<][6792162f0da49828983189][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:03][25/Jan/23 10:13:03][took 0.09926 secs]
+[>>][6792162f26483372554108][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:03]
+	[25/Jan/23 10:13:03][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:13:03][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792162f26483372554108][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:03][25/Jan/23 10:13:03][took 0.065638 secs]
+[>>][6792163f7d6ff554180496][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19]
+	[25/Jan/23 10:13:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:13:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792163f7d6ff554180496][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19][25/Jan/23 10:13:19][took 0.076053 secs]
+[>>][6792163f906c8665704266][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19]
+[<<][6792163f906c8665704266][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19][25/Jan/23 10:13:19][took 0.092244 secs]
+[>>][6792163fa775b847005967][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19]
+	[25/Jan/23 10:13:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:13:19][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][6792163fa775b847005967][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:13:19][25/Jan/23 10:13:19][took 0.054251 secs]
+[>>][679217622ee11555764404][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10]
+	[25/Jan/23 10:18:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\Factory\DecoratedResponseFactory.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:18:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\Factory\DecoratedResponseFactory.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679217622ee11555764404][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10][25/Jan/23 10:18:10][took 0.079684 secs]
+[>>][6792176242b83528135333][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10]
+[<<][6792176242b83528135333][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10][25/Jan/23 10:18:10][took 0.102152 secs]
+[>>][679217625c12d950151635][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10]
+	[25/Jan/23 10:18:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(Slim\Http\ServerRequest.class.php): Failed to open stream: No such file or directory - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+	[25/Jan/23 10:18:10][WARNING][<nosession>][GUI]
+		E_WARNING
+include_once(): Failed opening 'Slim\Http\ServerRequest.class.php' for inclusion (include_path='G:\xampp\php\PEAR;.;G:\xampp\htdocs\testlink\lib\functions\;G:\xampp\htdocs\testlink\lib\functions\oauth_providers\;G:\xampp\htdocs\testlink\lib\issuetrackerintegration\;G:\xampp\htdocs\testlink\lib\codetrackerintegration\;G:\xampp\htdocs\testlink\lib\reqmgrsystemintegration\;G:\xampp\htdocs\testlink\third_party\;G:\xampp\htdocs\testlink\vendor\;G:\xampp\htdocs\testlink\cfg\') - in G:\xampp\htdocs\testlink\lib\functions\common.php - Line 119
+[<<][679217625c12d950151635][DEFAULT][/testlink/lib/api/rest/v3/index.php][25/Jan/23 10:18:10][25/Jan/23 10:18:10][took 0.041312 secs]

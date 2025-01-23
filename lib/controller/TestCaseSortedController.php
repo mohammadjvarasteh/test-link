@@ -34,13 +34,14 @@ use lib\Helper\QueryBuilder;
 
     public function sort(Request $request, Response $response, $args)
     {
-        $query = $this->select('*', 'tcversions')
-        ->orderBy('importance','DESC')
+        $query = $this->select('*', 'tcversions tc')
+        ->join('executions ex', 'tc.id = ex.testcase_id', 'INNER') 
+        ->orderBy('tc.importance','DESC')
         ->getQuery();
-
-        $res = $this->db->exec_query($query);
-        $res = $this->db->fetch_all($res);
-        $response->getBody()->write(json_encode(['message' =>  $res]));
+        
+        $result = $this->db->exec_query($query);
+        $result = $this->db->fetch_all($result);
+        $response->getBody()->write(json_encode(['message' =>  $result]));
         return $response->withHeader('Content-Type', 'application/json');
     }
  }

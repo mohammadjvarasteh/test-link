@@ -231,8 +231,14 @@ class database {
 
   function fetch_all($p_result) 
 	{
-		$rows = array();
-		while (!$p_result->EOF) {
+    if(!$p_result)
+    {
+      return false;
+    }
+
+    $rows = array();
+
+		while (!$p_result->EOF ) {
 
 			switch ($this->db->databaseType) 
 			{
