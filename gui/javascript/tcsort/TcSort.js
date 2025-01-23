@@ -28,7 +28,7 @@ class TcSort extends BaceController
                 target   : this.filtersEl.runBtn,
                 getType  : 'single',
                 type     : 'click',
-                methods  : ['sortFilter','sendRequest'],
+                methods  : ['sortFilter'],
                 listener : null
             },
         
@@ -38,7 +38,7 @@ class TcSort extends BaceController
         this.addNeedEvents();
     }
 
-    sortFilter()
+    async sortFilter()
     {
         for (const key in this.filtersEl) 
         {
@@ -48,6 +48,36 @@ class TcSort extends BaceController
             }    
         }
 
+
+        await this.sendRequest(this.filters,'/testcase/sorted');
+        this.sortTestCase();
+
+    }
+
+    sortTestCase()
+    {
+        let testCasesBody = document.getElementById('item_view');
+        testCasesBody = testCasesBody.querySelector("tbody");
+        if (testCasesBody instanceof Element) 
+        {
+            console.log(testCasesBody);
+        
+            const sortedTestCases = document.createDocumentFragment();
+        
+            this.response.data.forEach(sortedTestCase => 
+            {
+                let lastTestCase = testCasesBody.querySelector(`[name="tcaseSet[${sortedTestCase.tcversion_id}]"]`);
+        
+                if (lastTestCase instanceof Element)
+                {
+                    lastTestCase = lastTestCase.closest('tr');
+                    sortedTestCases.appendChild(lastTestCase); 
+                }
+            });
+        
+            this.removeChild(testCasesBody);
+            testCasesBody.appendChild(sortedTestCases); 
+        }
     }
    
 

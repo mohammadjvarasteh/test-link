@@ -29,9 +29,9 @@ return function (App $app) {
             array($app->restApi,'getPlanBuilds'));
   
 
-            
+
   ///custom api route for testCase Sort!
-  $app->get('/testcase/sorted', [TestCaseSortedController::getInstance(),'sort']);
+  $app->post('/testcase/sorted', [TestCaseSortedController::getInstance(),'sort']);
           
                     
 

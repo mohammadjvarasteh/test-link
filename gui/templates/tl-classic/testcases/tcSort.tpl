@@ -1,8 +1,11 @@
 <!-- custom_template.tpl -->  
+
+<input style="display:none" value="{$baseRoute}" id="baseRoute" >
+<input style="display:none" value="{$apiKey}" id="apiKey" >
+
 <div class="custom-content">  
     <h1>Sort Filtering</h1>  
 			<div class="filter-container">
-
           <label for="order_by">Sort by:</label>
           <select name="type_filter" id="type_filter">
             <option value="priority">Priority</option>

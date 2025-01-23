@@ -13,7 +13,7 @@ class BaceController
     {
         this.config = 
         {
-            baseRoute : '',
+            baseRoute : document.getElementById('baseRoute').value ,
             apiKey    : document.getElementById('apiKey').value
         };
     }
@@ -116,27 +116,26 @@ class BaceController
         
     }
     
-    async sendRequest(data, method) {  
-        this.loading().show();  
+    async sendRequest(data,endPoint ,method = 'POST' )
+    {  
+        //this.loading().show();  
     
         try {  
-            const response = await fetch(this.config.baseRoute, {  
-                method: 'POST',  
+            const response = await fetch(this.config.baseRoute + endPoint , {  
+                method: method,  
                 headers: {  
-                    'X-API-Key': this.config.apiKey,  
-                    'Content-Type': 'application/json'  
+                    
+                    'Apikey': 'c8a540fce43725f6ce34f6cc8f991f67', 
+                    'Content-Type': 'application/json'  // نوع محتوا را JSON مشخص می‌کنیم
+
                 },  
                 body: JSON.stringify({  
                     data
                 })  
             });  
     
-            const jsonResponse = await response.json();  
-            console.log(jsonResponse);  
-    
-            if (jsonResponse.status) {  
-                console.log('success');
-            }  
+            this.response =  await response.json();
+
         } catch (error) {  
             console.log('error: ', error);  
         } finally 
